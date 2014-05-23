@@ -19,6 +19,8 @@ Shutterjam::Application.configure do
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
+  Paperclip.options[:command_path] = "C:/Program Files/ImageMagick-6.8.9-Q16/"
+
   # Raise an error on page load if there are pending migrations
   config.active_record.migration_error = :page_load
 
